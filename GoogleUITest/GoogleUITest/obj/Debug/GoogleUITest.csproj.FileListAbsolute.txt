@@ -1,0 +1,16 @@
+C:\Users\David Olanrewaju\source\repos\GoogleUITest\GoogleUITest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\David Olanrewaju\source\repos\GoogleUITest\GoogleUITest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\David Olanrewaju\source\repos\GoogleUITest\GoogleUITest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\David Olanrewaju\source\repos\GoogleUITest\GoogleUITest\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\David Olanrewaju\source\repos\GoogleUITest\GoogleUITest\bin\Debug\GoogleUITest.dll
+C:\Users\David Olanrewaju\source\repos\GoogleUITest\GoogleUITest\bin\Debug\GoogleUITest.pdb
+C:\Users\David Olanrewaju\source\repos\GoogleUITest\GoogleUITest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\David Olanrewaju\source\repos\GoogleUITest\GoogleUITest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\David Olanrewaju\source\repos\GoogleUITest\GoogleUITest\bin\Debug\WebDriver.dll
+C:\Users\David Olanrewaju\source\repos\GoogleUITest\GoogleUITest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\David Olanrewaju\source\repos\GoogleUITest\GoogleUITest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\David Olanrewaju\source\repos\GoogleUITest\GoogleUITest\obj\Debug\GoogleUITest.csproj.AssemblyReference.cache
+C:\Users\David Olanrewaju\source\repos\GoogleUITest\GoogleUITest\obj\Debug\GoogleUITest.csproj.CoreCompileInputs.cache
+C:\Users\David Olanrewaju\source\repos\GoogleUITest\GoogleUITest\obj\Debug\GoogleUITest.csproj.CopyComplete
+C:\Users\David Olanrewaju\source\repos\GoogleUITest\GoogleUITest\obj\Debug\GoogleUITest.dll
+C:\Users\David Olanrewaju\source\repos\GoogleUITest\GoogleUITest\obj\Debug\GoogleUITest.pdb
