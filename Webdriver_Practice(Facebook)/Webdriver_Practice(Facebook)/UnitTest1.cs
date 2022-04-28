@@ -18,6 +18,7 @@ namespace Webdriver_Practice_Facebook_
             By emailOrPhoneNumber = By.XPath("/html/body/div[1]/div[2]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[1]/input");
             By password = By.XPath("/html/body/div[1]/div[2]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[2]/div/input");
             By login = By.XPath("/html/body/div[1]/div[2]/div[1]/div/div/div/div[2]/div/div[1]/form/div[2]/button");
+            By friends = By.XPath("/html/body/div[1]/div/div[1]/div/div[3]/div/div/div[1]/div[1]/div/div[1]/div/div/div[1]/div/div/div[1]/div[1]/ul/li[1]/div/a/div[1]/div[2]/div/div/div/div/span/span");
             
             IWebDriver webDriver = new ChromeDriver();
             webDriver.Manage().Window.Maximize();
@@ -43,13 +44,19 @@ namespace Webdriver_Practice_Facebook_
             webDriver.FindElement(emailOrPhoneNumber).SendKeys("08138924429");
 
             Thread.Sleep(waitingTime);
-            Thread.Sleep(waitingTime);
 
             webDriver.FindElement(password).SendKeys("#Laitan99.");
 
             Thread.Sleep(waitingTime);
 
             webDriver.FindElement(login).Click();
+                
+            Thread.Sleep(waitingTime);
+
+            webDriver.FindElement(friends).Click();
+
+            Thread.Sleep(waitingTime);
+
 
             //webDriver.Quit();
         }
