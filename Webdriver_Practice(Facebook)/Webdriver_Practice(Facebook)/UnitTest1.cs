@@ -11,7 +11,7 @@ namespace Webdriver_Practice_Facebook_
         [TestMethod]
         public void TestFacebookAndPrintFriendsList()
         {
-            int waitingTime = 1500;
+            int waitingTime = 1300;
             By googleSearchBar = By.Name("q");
             By googleSearchButton = By.Name("btnK");
             By facebookLink = By.XPath("/html/body/div[7]/div/div[10]/div/div[2]/div[2]/div/div/div[1]/div/div/div/div/div/div[1]/a/h3");
@@ -19,7 +19,8 @@ namespace Webdriver_Practice_Facebook_
             By password = By.XPath("/html/body/div[1]/div[2]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[2]/div/input");
             By login = By.XPath("/html/body/div[1]/div[2]/div[1]/div/div/div/div[2]/div/div[1]/form/div[2]/button");
             By friends = By.XPath("/html/body/div[1]/div/div[1]/div/div[3]/div/div/div[1]/div[1]/div/div[1]/div/div/div[1]/div/div/div[1]/div[1]/ul/li[1]/div/a/div[1]/div[2]/div/div/div/div/span/span");
-            
+            By allFriends = By.XPath("/html/body/div[1]/div/div[1]/div/div[3]/div/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div[2]/div/div[1]/div[4]/a/div[1]/div[2]/div[1]/div/div/div/span/span");
+
             IWebDriver webDriver = new ChromeDriver();
             webDriver.Manage().Window.Maximize();
 
@@ -54,6 +55,10 @@ namespace Webdriver_Practice_Facebook_
             Thread.Sleep(waitingTime);
 
             webDriver.FindElement(friends).Click();
+
+            Thread.Sleep(waitingTime);
+
+            webDriver.FindElement(allFriends).Click();
 
             Thread.Sleep(waitingTime);
 
