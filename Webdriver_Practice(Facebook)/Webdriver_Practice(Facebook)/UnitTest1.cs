@@ -19,7 +19,7 @@ namespace Webdriver_Practice_Facebook_
             By password = By.XPath("/html/body/div[1]/div[2]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[2]/div/input");
             By login = By.XPath("/html/body/div[1]/div[2]/div[1]/div/div/div/div[2]/div/div[1]/form/div[2]/button");
             By myProfile = By.XPath("/html/body/div[1]/div/div[1]/div/div[3]/div/div/div[1]/div[1]/div/div[1]/div/div/div[1]/div/div/div[1]/ul/li/div/a/div[1]/div[2]/div/div/div/div/span/span");
-            By allFriends = By.ClassName("d2edcug0 hpfvmrgz qv66sw1b c1et5uql lr9zc1uh a8c37x1j fe6kdd0r mau55g9w c8b282yb keod5gw0 nxhoafnm aigsh9s9 d3f4x2em iv3no6db jq4qci2q a3bd9o3v lrazzd5p m9osqain");
+            By allFriends = By.XPath("/html/body/div[1]/div/div[1]/div/div[3]/div/div/div[1]/div[1]/div/div/div[3]/div/div/div/div[1]/div/div/div[1]/div/div/div/div/div/div/a[3]");
 
             IWebDriver webDriver = new ChromeDriver();
             webDriver.Manage().Window.Maximize();
@@ -63,7 +63,7 @@ namespace Webdriver_Practice_Facebook_
             Thread.Sleep(waitingTime);
 
 
-            //webDriver.Quit();
+            webDriver.Quit();
         }
     }
 }
