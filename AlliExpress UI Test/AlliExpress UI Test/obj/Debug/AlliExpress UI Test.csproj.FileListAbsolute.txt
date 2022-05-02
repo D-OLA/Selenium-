@@ -1,0 +1,16 @@
+C:\Users\David Olanrewaju\source\repos\AlliExpress UI Test\AlliExpress UI Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\David Olanrewaju\source\repos\AlliExpress UI Test\AlliExpress UI Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\David Olanrewaju\source\repos\AlliExpress UI Test\AlliExpress UI Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\David Olanrewaju\source\repos\AlliExpress UI Test\AlliExpress UI Test\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\David Olanrewaju\source\repos\AlliExpress UI Test\AlliExpress UI Test\bin\Debug\AlliExpress UI Test.dll
+C:\Users\David Olanrewaju\source\repos\AlliExpress UI Test\AlliExpress UI Test\bin\Debug\AlliExpress UI Test.pdb
+C:\Users\David Olanrewaju\source\repos\AlliExpress UI Test\AlliExpress UI Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\David Olanrewaju\source\repos\AlliExpress UI Test\AlliExpress UI Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\David Olanrewaju\source\repos\AlliExpress UI Test\AlliExpress UI Test\bin\Debug\WebDriver.dll
+C:\Users\David Olanrewaju\source\repos\AlliExpress UI Test\AlliExpress UI Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\David Olanrewaju\source\repos\AlliExpress UI Test\AlliExpress UI Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\David Olanrewaju\source\repos\AlliExpress UI Test\AlliExpress UI Test\obj\Debug\AlliExpress UI Test.csproj.AssemblyReference.cache
+C:\Users\David Olanrewaju\source\repos\AlliExpress UI Test\AlliExpress UI Test\obj\Debug\AlliExpress UI Test.csproj.CoreCompileInputs.cache
+C:\Users\David Olanrewaju\source\repos\AlliExpress UI Test\AlliExpress UI Test\obj\Debug\AlliExpress UI Test.csproj.CopyComplete
+C:\Users\David Olanrewaju\source\repos\AlliExpress UI Test\AlliExpress UI Test\obj\Debug\AlliExpress UI Test.dll
+C:\Users\David Olanrewaju\source\repos\AlliExpress UI Test\AlliExpress UI Test\obj\Debug\AlliExpress UI Test.pdb
