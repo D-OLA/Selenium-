@@ -9,7 +9,7 @@ namespace AlliExpress_UI_Test
     public class UnitTest1
     {
         [TestMethod]
-        public void TestAliExpressUI()
+        public void TestAliExpressUiAndAddItemsToCart()
         {
             int waitingTime = 1500;
             By googleSearchBar = By.Name("q");
@@ -17,9 +17,6 @@ namespace AlliExpress_UI_Test
             By aliexpressLink = By.XPath("/html/body/div[7]/div/div[10]/div/div[1]/div[3]/div/div[1]/div/div/div/div[1]/a/div[1]/span");
 
             IWebDriver webDriver = new ChromeDriver();
-
-            Thread.Sleep(waitingTime);
-
             webDriver.Manage().Window.Maximize();
 
             Thread.Sleep(waitingTime);
