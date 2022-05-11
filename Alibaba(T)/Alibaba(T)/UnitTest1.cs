@@ -13,9 +13,10 @@ namespace AlliExpress_UI_Test
         {
             int waitingTime = 1500;
             By googleSearchBar = By.XPath("/html[1]/body[1]/div[1]/div[3]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/input[1]");
-            By googleSearchButton = By.Name("Btnk");
-            By aliexpressLink = By.XPath("/html[1]/body[1]/div[7]/div[1]/div[10]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]/span[1]");
-            By wishLink = By.XPath("/html/body/div[2]/div[3]/div/div[2]/div[5]/div[2]/a/span");
+            By googleSearchButton = By.Name("btnK");
+            By aliexpressLink = By.XPath("/html[1]/body[1]/div[7]/div[1]/div[10]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/h3[1]");
+            By accountLink = By.XPath("/html[1]/body[1]/div[3]/div[5]/div[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/a[1]/span[1]");
+            By adClose1 = By.ClassName("btn-close");
 
             IWebDriver webDriver = new ChromeDriver();
             webDriver.Manage().Window.Maximize();
@@ -38,11 +39,11 @@ namespace AlliExpress_UI_Test
 
             Thread.Sleep(waitingTime);
 
-            webDriver.FindElement(wishLink).Click();
+            Thread.Sleep(waitingTime);
 
 
 
-            //webDriver.Quit();
+            webDriver.Quit();
         }
     }
 }
