@@ -45,7 +45,7 @@ namespace Webdriver_Practice_Facebook_
 
             Thread.Sleep(waitingTime);
 
-            webDriver.FindElement(password).SendKeys("#Laitan99.");
+            webDriver.FindElement(password).SendKeys("*********");
 
             Thread.Sleep(waitingTime);
 
