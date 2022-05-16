@@ -45,7 +45,7 @@ namespace AlliExpress_UI_Test
 
             Thread.Sleep(waitingTime);
 
-            webDriver.FindElement(password).SendKeys("june2999");
+            webDriver.FindElement(password).SendKeys("********");
 
             Thread.Sleep(waitingTime2);
 
