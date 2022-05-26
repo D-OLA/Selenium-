@@ -4,7 +4,7 @@ using OpenQA.Selenium.Chrome;
 using System;
 using System.Threading;
 
-namespace UseFast.com
+namespace UseFastDotCom
 {
     [TestClass]
     public class UnitTest1
@@ -14,12 +14,17 @@ namespace UseFast.com
         {
             int waitingTime = 1500;
             By searchBar = By.Name("q");
+            By googleSearchButton = By.Name("btnK");
 
             IWebDriver webDriver = new ChromeDriver();
             webDriver.Manage().Window.Maximize();
 
+            Thread.Sleep(waitingTime); 
+            webDriver.Navigate().GoToUrl("https://google.com");
             Thread.Sleep(waitingTime);
             webDriver.FindElement(searchBar).SendKeys("www.fast.com");
+            Thread.Sleep(waitingTime);
+            webDriver.FindElement(googleSearchButton).Click();
             
         }
     }

@@ -1,0 +1,16 @@
+C:\Users\David Olanrewaju\source\repos\UseFast.com\UseFast.com\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\David Olanrewaju\source\repos\UseFast.com\UseFast.com\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\David Olanrewaju\source\repos\UseFast.com\UseFast.com\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\David Olanrewaju\source\repos\UseFast.com\UseFast.com\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\David Olanrewaju\source\repos\UseFast.com\UseFast.com\bin\Debug\UseFast.com.dll
+C:\Users\David Olanrewaju\source\repos\UseFast.com\UseFast.com\bin\Debug\UseFast.com.pdb
+C:\Users\David Olanrewaju\source\repos\UseFast.com\UseFast.com\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\David Olanrewaju\source\repos\UseFast.com\UseFast.com\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\David Olanrewaju\source\repos\UseFast.com\UseFast.com\bin\Debug\WebDriver.dll
+C:\Users\David Olanrewaju\source\repos\UseFast.com\UseFast.com\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\David Olanrewaju\source\repos\UseFast.com\UseFast.com\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\David Olanrewaju\source\repos\UseFast.com\UseFast.com\obj\Debug\UseFast.com.csproj.AssemblyReference.cache
+C:\Users\David Olanrewaju\source\repos\UseFast.com\UseFast.com\obj\Debug\UseFast.com.csproj.CoreCompileInputs.cache
+C:\Users\David Olanrewaju\source\repos\UseFast.com\UseFast.com\obj\Debug\UseFast.com.csproj.CopyComplete
+C:\Users\David Olanrewaju\source\repos\UseFast.com\UseFast.com\obj\Debug\UseFast.com.dll
+C:\Users\David Olanrewaju\source\repos\UseFast.com\UseFast.com\obj\Debug\UseFast.com.pdb
