@@ -9,7 +9,7 @@ namespace UseFastDotCom
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void checkInternetSpeed()
         {
             int waitingTime = 1500;
             By searchBar = By.Name("q");
