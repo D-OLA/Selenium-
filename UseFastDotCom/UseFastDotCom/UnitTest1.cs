@@ -24,6 +24,8 @@ namespace UseFastDotCom
             webDriver.FindElement(searchBar).SendKeys("www.fast.com");
             Thread.Sleep(waitingTime);
             webDriver.FindElement(googleSearchButton).Click();
+
+            webDriver.Quit();
         }
     }
 }
