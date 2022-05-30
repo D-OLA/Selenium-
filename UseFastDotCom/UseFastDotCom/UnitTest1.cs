@@ -16,9 +16,10 @@ namespace UseFastDotCom
             By googleSearchButton = By.Name("btnK");
 
             IWebDriver webDriver = new ChromeDriver();
-            webDriver.Manage().Window.Maximize();
-
             Thread.Sleep(waitingTime);
+            webDriver.Manage().Window.Maximize();
+            Thread.Sleep(waitingTime);
+
             webDriver.Navigate().GoToUrl("https://google.com");
             Thread.Sleep(waitingTime);
             webDriver.FindElement(searchBar).SendKeys("www.fast.com");
