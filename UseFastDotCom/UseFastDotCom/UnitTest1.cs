@@ -11,7 +11,7 @@ namespace UseFastDotCom
         [TestMethod]
         public void checkInternetSpeed()
         {
-            int waitingTime = 1500;
+            int waitingTime = 8500;
             By searchBar = By.Name("q");
             By googleSearchButton = By.Name("btnK");
 
