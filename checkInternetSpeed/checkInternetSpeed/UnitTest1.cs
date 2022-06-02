@@ -36,5 +36,16 @@ namespace checkInternetSpeed
 
             webDriver.Quit();
         }
+
+        [TestMethod]
+        public void verifications()
+        {
+            int waitingTime = 1200;
+
+            IWebDriver webDriver = new ChromeDriver();
+            Thread.Sleep(waitingTime);
+            webDriver.Manage().Window.Maximize();
+
+        }
     }
 }
