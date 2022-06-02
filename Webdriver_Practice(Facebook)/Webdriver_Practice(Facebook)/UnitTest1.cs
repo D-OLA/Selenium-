@@ -41,7 +41,7 @@ namespace Webdriver_Practice_Facebook_
 
             Thread.Sleep(waitingTime);
 
-            webDriver.FindElement(emailOrPhoneNumber).SendKeys("08138924429");
+            webDriver.FindElement(emailOrPhoneNumber).SendKeys("***********");
 
             Thread.Sleep(waitingTime);
 
