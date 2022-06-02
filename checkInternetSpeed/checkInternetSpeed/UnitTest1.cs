@@ -1,7 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using System;
 using System.Threading;
 
 namespace checkInternetSpeed
@@ -19,13 +18,18 @@ namespace checkInternetSpeed
             IWebDriver webDriver = new ChromeDriver();
             Thread.Sleep(waitingTime);
             webDriver.Manage().Window.Maximize();
-            Thread.Sleep(waitingTime);
 
+            Thread.Sleep(waitingTime);
             webDriver.Navigate().GoToUrl("https://google.com");
+
             Thread.Sleep(waitingTime);
             webDriver.FindElement(searchBar).SendKeys("www.fast.com");
+
             Thread.Sleep(waitingTime);
             webDriver.FindElement(googleSearchButton).Click();
+
+            Thread.Sleep(waitingTime);
+            webDriver.FindElement().Click();
 
             webDriver.Quit();
         }
