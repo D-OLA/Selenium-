@@ -14,6 +14,7 @@ namespace checkInternetSpeed
             int waitingTime = 8500;
             By searchBar = By.Name("q");
             By googleSearchButton = By.Name("btnK");
+            By fastLink = By.XPath("/html[1]/body[1]/div[7]/div[1]/div[10]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/h3[1]");
 
             IWebDriver webDriver = new ChromeDriver();
             Thread.Sleep(waitingTime);
@@ -29,7 +30,7 @@ namespace checkInternetSpeed
             webDriver.FindElement(googleSearchButton).Click();
 
             Thread.Sleep(waitingTime);
-            webDriver.FindElement().Click();
+            webDriver.FindElement(fastLink).Click();
 
             webDriver.Quit();
         }
