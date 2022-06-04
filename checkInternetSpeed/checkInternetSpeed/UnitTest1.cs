@@ -11,10 +11,11 @@ namespace checkInternetSpeed
         [TestMethod]
         public void checkInternetSpeed()
         {
-            int waitingTime = 1500;
+            int waitingTime = 1200;
             By searchBar = By.Name("q");
             By googleSearchButton = By.Name("btnK");
             By fastLink = By.XPath("/html[1]/body[1]/div[7]/div[1]/div[10]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/h3[1]");
+            By refresh = By.XPath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/div[1]/span[1]");
 
             IWebDriver webDriver = new ChromeDriver();
             Thread.Sleep(waitingTime);
@@ -33,6 +34,9 @@ namespace checkInternetSpeed
             webDriver.FindElement(fastLink).Click();
             Thread.Sleep(waitingTime);
             Thread.Sleep(waitingTime);
+            Thread.Sleep(waitingTime);
+
+            webDriver.FindElement(refresh).Click();
 
             webDriver.Quit();
         }
@@ -45,6 +49,8 @@ namespace checkInternetSpeed
             IWebDriver webDriver = new ChromeDriver();
             Thread.Sleep(waitingTime);
             webDriver.Manage().Window.Maximize();
+
+            webDriver.Quit();
 
         }
     }
