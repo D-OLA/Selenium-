@@ -17,6 +17,7 @@ namespace checkInternetSpeed
             By fastLink = By.XPath("/html[1]/body[1]/div[7]/div[1]/div[10]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/h3[1]");
             By refresh = By.XPath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/div[1]/span[1]");
             By moreInfo = By.XPath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[4]/div[1]/a[1]");
+            By resultText1 = By.XPath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[4]/div[2]/div[2]/div[1]/span[2]");
 
             IWebDriver webDriver = new ChromeDriver();
             Thread.Sleep(waitingTime);
