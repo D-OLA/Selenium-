@@ -11,8 +11,8 @@ namespace checkInternetSpeed
         [TestMethod]
         public void checkInternetSpeed()
         {
-            int waitingTime = 1200;
-            int waitingTime2 = 20000;
+            int waitingTime = 1800;
+            int waitingTime2 = 28000;
             By searchBar = By.Name("q");
             By googleSearchButton = By.Name("btnK");
             By fastLink = By.XPath("/html[1]/body[1]/div[7]/div[1]/div[10]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/h3[1]");
