@@ -42,6 +42,9 @@ namespace checkInternetSpeed
             Thread.Sleep(waitingTime);
             Thread.Sleep(waitingTime);
             webDriver.FindElement(moreInfo).Click();
+            
+            var actualResult = webDriver.FindElement(resultText1);
+            Assert.IsTrue(actualResult.Text.Equals("Lagos, NG"));
 
 
             Thread.Sleep(waitingTime);
