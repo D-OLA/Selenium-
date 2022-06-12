@@ -50,7 +50,7 @@ namespace checkInternetSpeed
             Assert.IsTrue(actualResult.Text.Equals("Ibadan, NG"));
 
             var actualResult2 = webDriver.FindElement(settings);
-            Assert.IsTrue(actualResult.Text.Equals("Settings"));
+            Assert.IsTrue(actualResult2.Text.Equals("Settings"));
 
             Thread.Sleep(waitingTime);
             webDriver.FindElement(settings).Click();
