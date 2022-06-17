@@ -11,8 +11,8 @@ namespace checkInternetSpeed
         [TestMethod]
         public void checkInternetSpeed()
         {
-            int waitingTime = 1800;
-            int waitingTime2 = 28000;
+            int waitTime = 1800;
+            int waitTime2 = 28000;
             By searchBar = By.Name("q");
             By googleSearchButton = By.Name("btnK");
             By fastLink = By.XPath("/html[1]/body[1]/div[7]/div[1]/div[10]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/h3[1]");
@@ -25,25 +25,25 @@ namespace checkInternetSpeed
             By saveChanges = By.XPath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[4]/div[3]/div[4]/a[2]");
 
             IWebDriver webDriver = new ChromeDriver();
-            Thread.Sleep(waitingTime);
+            Thread.Sleep(waitTime);
             webDriver.Manage().Window.Maximize();
 
-            Thread.Sleep(waitingTime);
+            Thread.Sleep(waitTime);
             webDriver.Navigate().GoToUrl("https://google.com");
 
-            Thread.Sleep(waitingTime);
+            Thread.Sleep(waitTime);
             webDriver.FindElement(searchBar).SendKeys("www.fast.com");
 
-            Thread.Sleep(waitingTime);
+            Thread.Sleep(waitTime);
             webDriver.FindElement(googleSearchButton).Click();
 
-            Thread.Sleep(waitingTime);
+            Thread.Sleep(waitTime);
             webDriver.FindElement(fastLink).Click();
 
-            Thread.Sleep(waitingTime2);
+            Thread.Sleep(waitTime2);
             webDriver.FindElement(refresh).Click();
 
-            Thread.Sleep(waitingTime2);
+            Thread.Sleep(waitTime2);
             webDriver.FindElement(moreInfo).Click();
             
             var actualResult = webDriver.FindElement(resultText1);
@@ -52,16 +52,16 @@ namespace checkInternetSpeed
             var actualResult2 = webDriver.FindElement(settings);
             Assert.IsTrue(actualResult2.Text.Equals("Settings"));
 
-            Thread.Sleep(waitingTime);
+            Thread.Sleep(waitTime);
             webDriver.FindElement(settings).Click();
 
-            Thread.Sleep(waitingTime);
+            Thread.Sleep(waitTime);
             webDriver.FindElement(minDur).SendKeys("5");
 
-            Thread.Sleep(waitingTime);
+            Thread.Sleep(waitTime);
             webDriver.FindElement(maxDur).SendKeys("15");
 
-            Thread.Sleep(waitingTime);
+            Thread.Sleep(waitTime);
             webDriver.FindElement(saveChanges).Click();
 
 
