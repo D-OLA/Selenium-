@@ -1,0 +1,16 @@
+C:\Users\David Olanrewaju\source\repos\SteamUnlockedGamesCheck\SteamUnlockedGamesCheck\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\David Olanrewaju\source\repos\SteamUnlockedGamesCheck\SteamUnlockedGamesCheck\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\David Olanrewaju\source\repos\SteamUnlockedGamesCheck\SteamUnlockedGamesCheck\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\David Olanrewaju\source\repos\SteamUnlockedGamesCheck\SteamUnlockedGamesCheck\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\David Olanrewaju\source\repos\SteamUnlockedGamesCheck\SteamUnlockedGamesCheck\bin\Debug\SteamUnlockedGamesCheck.dll
+C:\Users\David Olanrewaju\source\repos\SteamUnlockedGamesCheck\SteamUnlockedGamesCheck\bin\Debug\SteamUnlockedGamesCheck.pdb
+C:\Users\David Olanrewaju\source\repos\SteamUnlockedGamesCheck\SteamUnlockedGamesCheck\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\David Olanrewaju\source\repos\SteamUnlockedGamesCheck\SteamUnlockedGamesCheck\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\David Olanrewaju\source\repos\SteamUnlockedGamesCheck\SteamUnlockedGamesCheck\bin\Debug\WebDriver.dll
+C:\Users\David Olanrewaju\source\repos\SteamUnlockedGamesCheck\SteamUnlockedGamesCheck\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\David Olanrewaju\source\repos\SteamUnlockedGamesCheck\SteamUnlockedGamesCheck\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\David Olanrewaju\source\repos\SteamUnlockedGamesCheck\SteamUnlockedGamesCheck\obj\Debug\SteamUnlockedGamesCheck.csproj.AssemblyReference.cache
+C:\Users\David Olanrewaju\source\repos\SteamUnlockedGamesCheck\SteamUnlockedGamesCheck\obj\Debug\SteamUnlockedGamesCheck.csproj.CoreCompileInputs.cache
+C:\Users\David Olanrewaju\source\repos\SteamUnlockedGamesCheck\SteamUnlockedGamesCheck\obj\Debug\SteamUnlockedGamesCheck.csproj.CopyComplete
+C:\Users\David Olanrewaju\source\repos\SteamUnlockedGamesCheck\SteamUnlockedGamesCheck\obj\Debug\SteamUnlockedGamesCheck.dll
+C:\Users\David Olanrewaju\source\repos\SteamUnlockedGamesCheck\SteamUnlockedGamesCheck\obj\Debug\SteamUnlockedGamesCheck.pdb
